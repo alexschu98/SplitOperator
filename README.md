@@ -9,6 +9,8 @@ A 1D, 2D and 3D implementation of the split operator algorithm for a particle in
 Will be added whenever I am motivated to do so.
 
 ## Build
+This project uses [Eigen](http://eigen.tuxfamily.org/index.php?title=Main_Page) so make sure your system can find the needed header files.
+
 ```zsh
 mkdir bin
 make
