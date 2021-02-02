@@ -2,14 +2,10 @@
 
 ## About
 
-A 1D, 2D and 3D implementation of the split operator algorithm for a particle in a harmonic potential. 
-
-## Physical background
-
-Will be added whenever I am motivated to do so.
+A 1D, 2D and 3D implementation of the split operator algorithm for a particle in a harmonic potential. Based on the implementation from the [Arcane Algorithm Archive](https://www.algorithm-archive.org/contents/split-operator_method/split-operator_method.html). The extensions to 2D and 3D were done using the [Eigen library](http://eigen.tuxfamily.org/index.php?title=Main_Page).
 
 ## Build
-This project uses [Eigen](http://eigen.tuxfamily.org/index.php?title=Main_Page) so make sure your system can find the needed header files.
+This project uses [Eigen](http://eigen.tuxfamily.org/index.php?title=Main_Page) so make sure your compiler can find the needed header files. Please note the 3d version requires the Eigen Tensor class from Eigen-unsupported. 
 
 ```zsh
 mkdir bin
