@@ -1,0 +1,21 @@
+name: C/C++ Build
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: install dependencies
+      run: sudo apt update -y sudo apt upgrade -y; sudo apt install libeigen3-dev libfftw3-dev
+    - name: make 1d
+      run: make splitop1d
+    - name: make 2d
+      run: make splitop2d
