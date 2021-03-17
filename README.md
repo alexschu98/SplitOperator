@@ -1,6 +1,6 @@
 # SplitOperator
 
-[![C/C++ Build](https://github.com/alexschu98/SplitOperator/actions/workflows/c-cpp-build.yml/badge.svg)](https://github.com/alexschu98/SplitOperator/actions/workflows/c-cpp-build.yml)
+[![C/C++ Build](https://github.com/alexschu98/SplitOperator/actions/workflows/c-cpp-build.yml/badge.svg?branch=master)](https://github.com/alexschu98/SplitOperator/actions/workflows/c-cpp-build.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## About
